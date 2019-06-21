@@ -2,7 +2,8 @@
 using namespace std;
 #define max 100
 
-int top,stack[max];
+int top =0;
+char stack[max];
 
 void push(char x)
 {
